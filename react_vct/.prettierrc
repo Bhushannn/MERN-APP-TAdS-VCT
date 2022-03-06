@@ -1,0 +1,7 @@
+{
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "tabWidth": 4
+}
+mongodb+srv://imshresth:<password>@cluster0.6c0eb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority

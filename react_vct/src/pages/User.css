@@ -1,0 +1,167 @@
+/* @import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/herman-decanus-ah-2'); */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'HarryPotter';
+    src: url(./hermandec.ttf);
+}
+
+.house_image {
+    width: 100vw;
+    height: 100vh;
+    /* margin-top: -8%; */
+}
+
+.modal_button {
+    width: 180px;
+    color: white;
+    transition: 0.2s;
+    font-size: 1rem;
+    max-width: 100%;
+    padding: 1rem 0.75rem;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgb(91, 48, 8);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+    color: #fff;
+    background-image: linear-gradient(45deg, white 50%, rgb(91, 48, 8) 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    margin-top: 15%;
+}
+
+.modal_button:hover {
+    background-position: 0;
+    color: rgb(91, 48, 8);
+    border: 2px solid rgb(91, 48, 8);
+}
+
+.button_vct {
+    width: 180px;
+    color: white;
+    transition: 0.2s;
+    font-size: 1rem;
+    max-width: 100%;
+    padding: 1rem 0.75rem;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(91, 48, 8);
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(91, 48, 8) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    margin-top: 8%;
+}
+
+.button_vct:hover {
+    background-position: 0;
+}
+
+
+/* .user_maindiv {
+  background-image: url('https://github.com/TAdS-VCT/Media/blob/main/BG%20images/harrypotterbg.png?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.user_details {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 36%;
+}
+
+.vct_details {
+    position: absolute;
+    top: 60%;
+    margin-left: 30.5%;
+}
+
+.user_details h1 {
+    font-family: 'HarryPotter';
+    color: #000;
+    font-size: 50px;
+}
+
+@media only screen and (max-width:1320) {
+    .user_details h1 {
+        font-size: 40px;
+    }
+}
+
+.letsgo_vct {
+    font-family: 'HarryPotter';
+    color: #000;
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.user_details h1 span {
+    /* font-family: 'Herman Decanus Light AH', 'Poppins'; */
+    /* font-family: 'Herman Decanus AH', 'Poppins'; */
+    font-family: 'HarryPotter';
+    color: #000;
+}
+
+.vct_btn {
+    padding: 30px 20px;
+}
+
+.container_vct {
+    display: grid;
+    grid-template-columns: 0.5fr .5fr;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    top: 450%;
+    left: -5%;
+    cursor: pointer;
+    /* transform: translate(-50%, -50%); */
+}
+
+.hp-character {
+    display: inline-block;
+    margin: 3vmin;
+    width: 16vmin;
+    height: 16vmin;
+    aspect-ratio: 1/1;
+    border-radius: 20%;
+    box-shadow: 0 1vmin 4vmin;
+}
+
+.hp-character.griffindor {
+    background: linear-gradient(69deg, #0000 30%, #da8 0 70%, #0000 0) 27% 20% / 10% 7%, conic-gradient(at 90% 100%, #0000 320deg, #da8 0 350deg, #0000 0) 25% 27% / 10% 7%, radial-gradient(farthest-side, #fff 90%, #0000 0) 22% 50% / 5% 5%, radial-gradient(farthest-side, #fff 90%, #0000 0) 72% 50% / 5% 5%, radial-gradient(farthest-side, #000 90%, #0000 0) 20% 55% / 20% 20%, radial-gradient(farthest-side, #000 90%, #0000 0) 80% 55% / 20% 20%, linear-gradient(to right, #000 7%, #0000 0 43%, #000 0 57%, #0000 0 93%, #000 0) 0 52% / 100% 2.5%, radial-gradient(circle at 25% 50%, #0000 22%, #000 0 25%, #0000 0) 0 52% / 100% 40%, radial-gradient(circle at 75% 50%, #0000 22%, #000 0 25%, #0000 0) 0 52% / 100% 40%, repeating-linear-gradient(to right, brown 0 20%, gold 0 40%) 0 100% / 100% 25%, linear-gradient(#0000 73%, #000 0 90%, #0000 0), radial-gradient(farthest-side, #642 99.9%, #0000 0) -52% -60% / 52% 60%, radial-gradient(farthest-side, #642 99.9%, #0000 0) 300% -58% / 90% 56%, radial-gradient(farthest-side, #fca 99.9%, #0000 0) 320% -50% / 90% 55%, radial-gradient(farthest-side, #642 99.9%, #0000 0) 500% -52% / 95% 55%, linear-gradient(#fca 0 0);
+    background-repeat: no-repeat;
+    color: #d006;
+}

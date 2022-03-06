@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.vectors::selection {
+    background: transparent;
+}
+
+.backbutton {
+    position: relative;
+}
+
+.xyz1 {
+    position: relative;
+}
+
+.tm {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* opacity: 1; */
+}
+
+.tm1 {
+    cursor: pointer;
+    position: fixed;
+    top: 56%;
+    left: 13%;
+    width: 4%;
+    height: 9%;
+    opacity: 0.5;
+}
+
+.tm2 {
+    cursor: pointer;
+    position: fixed;
+    top: 25%;
+    left: 69%;
+    width: 12%;
+    height: 12%;
+}
+
+.tm3 {
+    cursor: pointer;
+    position: fixed;
+    top: 79%;
+    left: 74%;
+    width: 7%;
+    height: 12%;
+    opacity: 0.8;
+}
+
+.tm4 {
+    cursor: pointer;
+    position: fixed;
+    top: 32%;
+    left: 33%;
+    width: 12%;
+    height: 12%;
+}
+
+.tm5 {
+    cursor: pointer;
+    position: fixed;
+    top: 22%;
+    left: 88%;
+    width: 12%;
+    height: 12%;
+}

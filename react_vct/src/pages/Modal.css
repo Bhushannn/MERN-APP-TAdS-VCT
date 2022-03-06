@@ -1,0 +1,22 @@
+.my-modal {
+  width: 100%; /* Occupy the 90% of the screen width */
+}
+
+.custom-modal-style {
+  height: 40%;
+}
+
+.modal-w {
+  max-width: 60% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-w {
+    max-width: 80% !important;
+  }
+
+  .mobile_view {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}

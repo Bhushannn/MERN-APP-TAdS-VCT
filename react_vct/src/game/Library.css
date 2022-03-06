@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.vectors::selection {
+    background: transparent;
+}
+
+.backbutton {
+    position: relative;
+}
+
+.xyz1 {
+    position: relative;
+}
+
+.lib {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* opacity: 1; */
+}
+
+.lib1 {
+    cursor: pointer;
+    position: fixed;
+    top: 82%;
+    left: 43%;
+    width: 12%;
+    height: 14%;
+}
+
+.lib2 {
+    cursor: pointer;
+    position: fixed;
+    top: 72%;
+    left: 72%;
+    width: 6%;
+    height: 4%;
+}
+
+.lib3 {
+    cursor: pointer;
+    position: fixed;
+    top: 36%;
+    left: 6%;
+    width: 22%;
+    height: 46%;
+}
+
+.lib4 {
+    cursor: pointer;
+    position: fixed;
+    top: 12%;
+    left: 28%;
+    width: 7%;
+    height: 12%;
+}
+
+.lib5 {
+    cursor: pointer;
+    position: fixed;
+    top: 22%;
+    left: 88%;
+    width: 12%;
+    height: 12%;
+}

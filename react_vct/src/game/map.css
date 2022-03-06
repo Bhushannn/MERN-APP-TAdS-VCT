@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.progress {
+    background-color: #aaa;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mapvct {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* opacity: 1; */
+}
+
+.xyz {
+    position: relative;
+}
+
+.MAIN_BUILDING {
+    cursor: pointer;
+    position: absolute;
+    top: 18.4%;
+    left: 54.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+
+/* .MAIN_BUILDING:hover {
+
+} */
+
+.NEHRU_MUSEUM {
+    cursor: pointer;
+    position: absolute;
+    top: 17.4%;
+    left: 64.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.NALANDA {
+    cursor: pointer;
+    position: absolute;
+    top: 32.4%;
+    left: 66.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TECH_MARKET {
+    cursor: pointer;
+    position: absolute;
+    top: 37.4%;
+    left: 24.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.LAKE {
+    cursor: pointer;
+    position: absolute;
+    top: 26.4%;
+    left: 31.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.OLD_ARCHI {
+    cursor: pointer;
+    position: absolute;
+    top: 25.4%;
+    left: 53.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.GYMKHANA {
+    cursor: pointer;
+    position: absolute;
+    top: 20.4%;
+    left: 32.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.HELIPAD {
+    cursor: pointer;
+    position: absolute;
+    top: 57.4%;
+    left: 74.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.CLOCK_TOWER {
+    cursor: pointer;
+    position: absolute;
+    top: 23.4%;
+    left: 42.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.AGRICULTURE_DEPARTMENT {
+    cursor: pointer;
+    position: absolute;
+    top: 32.4%;
+    left: 58.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.SHIRU_CAFE {
+    cursor: pointer;
+    position: absolute;
+    top: 35.4%;
+    left: 65.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TWOPOINTTWO {
+    cursor: pointer;
+    position: absolute;
+    top: 45.4%;
+    left: 35.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TOAT {
+    cursor: pointer;
+    position: absolute;
+    top: 22.4%;
+    left: 47.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.LIBRARY {
+    cursor: pointer;
+    position: absolute;
+    top: 15.4%;
+    left: 50.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.PFC {
+    cursor: pointer;
+    position: absolute;
+    top: 21.4%;
+    left: 25.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.TAKSHASHILA {
+    cursor: pointer;
+    position: absolute;
+    top: 29.4%;
+    left: 51.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.SBI {
+    cursor: pointer;
+    position: absolute;
+    top: 8.4%;
+    left: 51%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.PURI_GATE {
+    cursor: pointer;
+    position: absolute;
+    top: 0.4%;
+    left: 53.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.ADDA {
+    cursor: pointer;
+    position: absolute;
+    top: 26.4%;
+    left: 45.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.JNAN_GHOSH {
+    cursor: pointer;
+    position: absolute;
+    top: 24.4%;
+    left: 38.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.Chedis {
+    cursor: pointer;
+    position: absolute;
+    top: 2.4%;
+    left: 38.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.Pls {
+    cursor: pointer;
+    position: absolute;
+    top: 52.4%;
+    left: 30.4%;
+    width: 1.8%;
+    z-index: 2;
+}
+
+.my-modal {
+    width: 300px;
+    height: 800px;
+}
+
+.img__description_layer {
+    position: absolute;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition effect. not necessary */
+    transition: "opacity .2s", "visibility .2s";
+}
+
+.img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}

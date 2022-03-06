@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.vectors::selection {
+    background: transparent;
+}
+
+.backbutton {
+    position: relative;
+}
+
+.xyz1 {
+    position: relative;
+}
+
+.puribg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.puriv1 {
+    cursor: pointer;
+    position: fixed;
+    top: 70%;
+    left: 62%;
+    width: 11%;
+    height: 11%;
+    /* opacity: 0.9; */
+}
+
+.puriv2 {
+    cursor: pointer;
+    position: fixed;
+    top: 67%;
+    left: 20%;
+    width: 6%;
+    height: 9%;
+}
+
+.puriv3 {
+    cursor: pointer;
+    position: fixed;
+    top: 3%;
+    left: 9%;
+    width: 8%;
+    height: 12%;
+}
+
+.puriv4 {
+    cursor: pointer;
+    position: fixed;
+    top: 69%;
+    left: 5%;
+    width: 8%;
+    height: 13%;
+}

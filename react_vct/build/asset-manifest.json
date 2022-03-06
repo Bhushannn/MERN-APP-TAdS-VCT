@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07a6b150.chunk.css",
+    "main.js": "/static/js/main.167e3ce2.chunk.js",
+    "main.js.map": "/static/js/main.167e3ce2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.680bac16.js",
+    "runtime-main.js.map": "/static/js/runtime-main.680bac16.js.map",
+    "static/css/2.82ab0187.chunk.css": "/static/css/2.82ab0187.chunk.css",
+    "static/js/2.a80cf0ae.chunk.js": "/static/js/2.a80cf0ae.chunk.js",
+    "static/js/2.a80cf0ae.chunk.js.map": "/static/js/2.a80cf0ae.chunk.js.map",
+    "static/js/3.a15c1093.chunk.js": "/static/js/3.a15c1093.chunk.js",
+    "static/js/3.a15c1093.chunk.js.map": "/static/js/3.a15c1093.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.82ab0187.chunk.css.map": "/static/css/2.82ab0187.chunk.css.map",
+    "static/css/main.07a6b150.chunk.css.map": "/static/css/main.07a6b150.chunk.css.map",
+    "static/js/2.a80cf0ae.chunk.js.LICENSE.txt": "/static/js/2.a80cf0ae.chunk.js.LICENSE.txt",
+    "static/media/User.css": "/static/media/hermandec.2b102d53.ttf",
+    "static/media/theme.3ef361b8.mp3": "/static/media/theme.3ef361b8.mp3",
+    "static/media/wpreloader.2bd484f7.gif": "/static/media/wpreloader.2bd484f7.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.680bac16.js",
+    "static/css/2.82ab0187.chunk.css",
+    "static/js/2.a80cf0ae.chunk.js",
+    "static/css/main.07a6b150.chunk.css",
+    "static/js/main.167e3ce2.chunk.js"
+  ]
+}

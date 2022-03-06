@@ -1,0 +1,21 @@
+.DataLoader img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: opacity 0.3s linear;
+    background-color:"#eddaac";
+    background-size: "cover";
+    width: 100%;
+}
+
+/* .pre {
+    margin-left:auto;
+    margin-right:auto;
+} */
+
+* {
+    background-color:"#eddaac";
+}
