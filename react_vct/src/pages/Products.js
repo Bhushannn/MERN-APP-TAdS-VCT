@@ -70,7 +70,7 @@ export default function EcommerceShop() {
               {((userIndex) <= 17) ? <button onClick={handleNavigate} className="button_vct">
                 Let's Go!</button>
                 :
-                <button onClick={() => navigate("/", { replace: true })} className="button_vct">Let's Go!</button>
+                <button onClick={() => navigate("/game/gameEnd", { replace: true })} className="button_vct">Let's Go!</button>
               }
             </div>
               : <div className='vct_details'> <button className="button_vct">
